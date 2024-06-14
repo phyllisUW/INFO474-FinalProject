@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Data Visualization</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="my_dataviz"></div>
+		<div id="variableContainer">
+        <b>Variable:</b>
+        <select id="variableSelector">
+            <option value="actual_precipitation">Actual Precipitation</option>
+            <option value="average_precipitation">Average Precipitation</option>
+            <option value="record_precipitation">Record Precipitation</option>
+        </select>  
+    </div>
+</div>
+
+	<script src="//d3js.org/d3.v5.min.js"></script>
+	<script src="./d3-tip.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+

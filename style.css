@@ -1,0 +1,26 @@
+#my_dataviz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 8px;
+  font-size: 12px;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+#variableContainer {
+  position: absolute;
+  top: 40px; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
